@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px 0px 100px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.firsttop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    font-size: 18px;
+    gap: 16px;
+}
+
+.main {
+    display: flex;
+    margin: 50px 0px 50px 0px;
+}
+
+.mainright {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.maintext {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.mainimage {
+    display: flex;
+    width: auto;
+    height: 150px;
+    margin-left: 80px;
+}
