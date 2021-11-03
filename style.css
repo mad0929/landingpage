@@ -30,6 +30,7 @@ body {
 .main {
     display: flex;
     margin: 50px 0px 50px 0px;
+    justify-content: space-between;
 }
 
 .mainright {
@@ -47,5 +48,80 @@ body {
     display: flex;
     width: auto;
     height: 150px;
-    margin-left: 80px;
+    justify-content: center;
+}
+
+.subtext {
+    display: flex;
+    width: 510px;
+    margin-bottom: 10px;
+}
+
+.signup {
+    display: flex;
+    padding: 10px;
+    background-color: #3882F6;
+    width: 70px;
+    height: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    padding:0px 0px 100px 0px;
+}
+
+.informationhead {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 0px 0px 20px 0px;
+}
+
+.infocontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px 0px 200px;
+}
+
+.infocontainer img {
+    width: 100px;
+    height: 100px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 200px;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    margin-top: 20px;
+    padding: 100px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quotesource {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: flex-end;
 }
